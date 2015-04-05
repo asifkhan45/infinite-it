@@ -17,19 +17,19 @@
 <div class="container">
 <div class="collum-3">
 <div class="col_ic"><img src="<?php echo get_template_directory_uri();?>/images/hm_icon.png" alt=""/></div>
-<h2>Home</h2>
+<h2>Services</h2>
 <span class="ic_txt">A proactive Risk Management approach is the solution Loss of any data can be extremely costly. Securing your data however, is only a part of the puzzle</span>
 
 <a href="#" class="col_ic_btn">Learn More </a>
 </div>
 <div class="collum-3">
 <div class="col_ic"><img src="<?php echo get_template_directory_uri();?>/images/hm_icon1.png"  alt=""/></div>
-<h2>Home</h2>
+<h2>About us</h2>
 <span class="ic_txt">A proactive Risk Management approach is the solution Loss of any data can be extremely costly. Securing your data however, is only a part of the puzzle</span>
 <a href="#" class="col_ic_btn">Learn More </a>
 </div>
 <div class="collum-3"><div class="col_ic"><img src="<?php echo get_template_directory_uri();?>/images/hm_icon2.png"  alt=""/></div>
-<h2>Home</h2>
+<h2>Projects</h2>
 <span class="ic_txt">A proactive Risk Management approach is the solution Loss of any data can be extremely costly. Securing your data however, is only a part of the puzzle</span>
 <a href="#" class="col_ic_btn">Learn More </a>
 </div>

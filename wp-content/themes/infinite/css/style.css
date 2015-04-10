@@ -121,7 +121,10 @@ a.icon {
 .nav ul li a {
     color: #333;
 }
-a.icon {
+/* a.icon {
+    position: relative;
+} */
+.homeMainMenu a {
     position: relative;
 }
 
@@ -130,7 +133,18 @@ a.icon {
     margin: 0px;
 }
 
-a.icon:before {
+/* a.icon:before {
+    content: "";
+    position: absolute;
+    top: -34px;
+    padding: 0px;
+	background:url(../images/menu-icon.png) no-repeat;
+    background-position-y: 0px;
+    width: 100%;
+    height: 36px;
+	opacity: 0.2;
+} */
+.homeMainMenu a:before {
     content: "";
     position: absolute;
     top: -34px;
@@ -142,7 +156,7 @@ a.icon:before {
 	opacity: 0.2;
 }
 
-a.hm:before {
+/* a.hm:before {
   background-position: 8px 0px;
 }
 
@@ -163,6 +177,29 @@ a.icon.new:before {
 }
 
 a.icon.con:before {
+    background-position: -252px 0px;
+} */
+#menu-home a:before {
+  background-position: 8px 0px;
+}
+
+#menu-about_us a:before {
+    background-position: -35px 0px;
+}
+
+#menu-services a:before {
+    background-position: -92px 0px;
+}
+
+#menu-projects a:before {
+    background-position: -157px 0px;
+}
+
+#menu-news a:before {
+    background-position: -222px 0px;
+}
+
+#menu-contact_us a:before {
     background-position: -252px 0px;
 }
 h2.srch_h2 {

@@ -74,7 +74,7 @@ singleItem : true,
 
 <?php $items = wp_get_nav_menu_items('header_menu' );
       foreach ($items as $val){
-       echo '<li id="menu-' . $val->post_excerpt . '"><a href="'.$val->url.'">'.$val->title.'</a></li>';
+       echo '<li class="homeMainMenu" id="menu-' . $val->post_excerpt . '"><a href="'.$val->url.'">'.$val->title.'</a></li>';
       }
 ?>
 </ul>

@@ -308,6 +308,8 @@ visibility: hidden;
 	width: 20px;
 	display: inline-block;
 
+
+
 	font-size: inherit;
 	font-weight: normal;
 	text-transform: initial;
@@ -444,7 +446,7 @@ visibility: hidden;
 }
 .z-tabs.horizontal > ul > li {
 	float: left;
-	width: auto !important;
+	width: 236px !important;
 	margin: 0px;
 	border-bottom: 1px solid #3a8ccb;
 }
@@ -574,6 +576,7 @@ visibility: hidden;
 }
 .z-tabs.horizontal.z-rounded.bottom-left > .z-container {
 	-webkit-border-radius: 6px 6px 6px 0;
+
 	-moz-border-radius: 6px 6px 6px 0;
 	border-radius: 6px 6px 6px 0;
 }
@@ -1247,8 +1250,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', end
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	padding: 13px 10px;
-	margin: 0px 8px;
+	margin: 1px 8px;
 	font-size: 15px;
+	border: 0px;
+	margin-left: 0px;
 }
 .z-tabs.clean.horizontal.bottom > ul > li > a {
 	border-top-width: 1px;

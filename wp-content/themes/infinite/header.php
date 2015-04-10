@@ -56,27 +56,27 @@ singleItem : true,
 </div></div>
 <div class="main_nav_bx">
 <div class="container">
-<div class="logo"><img src="<?php echo get_template_directory_uri();?>/images/logo.png"  alt=""/></div>
+<div class="logo"><a href="<?php echo home_url();?>"><img src="<?php echo get_template_directory_uri();?>/images/logo.png"  alt=""/></a></div>
 <div class="right-nav">
 <div class="nav_frm"><div class="nav_frm_title">Client Login</div>
 <div class="frm_nv"><label>User Name</label><input type="text"></div>
 <div class="frm_nv"><label>Password</label><input type="password"></div>
+<input type="button" id ="btn1" class="tp_btn" value="Login">
 </div>
 <div class="nav">
 <ul>
-	<!--<li> <a href="#" class="icon hm">Home</a></li>
-	<li> <a href="#" class="icon abt">About Us</a></li>
-	<li> <a href="#" class="icon ser">Services</a></li>
-	<li> <a href="#" class="icon pro">Projects</a></li>
-	<li> <a href="#" class="icon new">News</a></li>
-	<li> <a href="#" class="icon con">Contact Us</a></li>-->
+<!--<li> <a href="#" class="icon hm">Home</a></li>
+<li> <a href="#" class="icon abt">About Us</a></li>
+<li> <a href="#" class="icon ser">Services</a></li>
+<li> <a href="#" class="icon pro">Projects</a></li>
+<li> <a href="#" class="icon new">News</a></li>
+<li> <a href="#" class="icon con">Contact Us</a></li>-->
+
 <?php $items = wp_get_nav_menu_items('header_menu' );
       foreach ($items as $val){
-		 // print_r ($items);
-       echo '<li id="menu-' . $val->post_excerpt . '"><a href="'.$val->url.'" class="icon hm">'.$val->title.'</a></li>';
+       echo '<li id="menu-' . $val->post_excerpt . '"><a href="'.$val->url.'">'.$val->title.'</a></li>';
       }
-?>	
-
+?>
 </ul>
 </div>
 </div>

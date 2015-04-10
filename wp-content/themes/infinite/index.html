@@ -1,5 +1,85 @@
-<?php get_header();?>
-<div class="banner"><img src="<?php echo get_template_directory_uri();?>/images/banner.png" ></div>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+<!--  carasoule Important Owl stylesheet -->
+<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+ 
+<!-- Default Theme -->
+<link rel="stylesheet" href="owl-carousel/owl.theme.css">
+ 
+<!--  jQuery 1.7+  -->
+<script src="js/jquery-1.9.1.min.js"></script>
+ 
+<!-- Include js plugin -->
+<script src="owl-carousel/owl.carousel.js"></script>
+<script>
+
+
+$(document).ready(function() {
+ 
+  $("#owl-example").owlCarousel({
+ 
+      autoPlay: 3000, //Set AutoPlay to 3 seconds
+ 
+      items : 6,
+      itemsDesktop : [1199,5],
+      itemsDesktopSmall : [979,4],
+	  itemsDesktopSmall : [809,3]
+ 
+  });
+  
+   $("#owl-testi").owlCarousel({
+autoPlay : 3000,
+singleItem : true,
+
+});
+ 
+});</script>
+
+<script src="js/custom.js"></script>
+
+</head>
+
+<body>
+
+<header>
+<div class="top_nav"><div class="container">
+<div class="search_bar"><input type="text" ></div>
+
+</div></div>
+<div class="main_nav_bx">
+<div class="container">
+<div class="logo"><img src="images/logo.png"  alt=""/></div>
+<div class="right-nav">
+<div class="nav_frm"><div class="nav_frm_title">Client Login</div>
+<div class="frm_nv"><label>User Name</label><input type="text"></div>
+<div class="frm_nv"><label>Password</label><input type="password"></div>
+<input type="button" class="tp_btn" value="Login">
+</div>
+<div class="nav">
+<ul>
+<li> <a href="#" class="icon hm">Home</a></li>
+<li> <a href="#" class="icon abt">About Us</a></li>
+<li> <a href="#" class="icon ser">Services</a></li>
+<li> <a href="#" class="icon pro">Projects</a></li>
+<li> <a href="#" class="icon new">News</a></li>
+<li> <a href="#" class="icon con">Contact Us</a></li>
+
+</ul>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+<div class="banner"><img src="images/banner.png" ></div>
 <div class="srch_frm"><div class="container">
 <h2 class="srch_h2"> Free Two Hours Onsite</h2>
 <div class="srch_frm_bx">
@@ -20,19 +100,19 @@
 <section class="sction_strt">
 <div class="container">
 <div class="collum-3">
-<div class="col_ic"><img src="<?php echo get_template_directory_uri();?>/images/hm_icon.png" alt=""/></div>
+<div class="col_ic"><img src="images/hm_icon.png" alt=""/></div>
 <h2>Home</h2>
 <span class="ic_txt">A proactive Risk Management approach is the solution Loss of any data can be extremely costly. Securing your data however, is only a part of the puzzle</span>
 
 <a href="#" class="col_ic_btn">Learn More </a>
 </div>
 <div class="collum-3">
-<div class="col_ic"><img src="<?php echo get_template_directory_uri();?>/images/hm_icon1.png"  alt=""/></div>
+<div class="col_ic"><img src="images/hm_icon1.png"  alt=""/></div>
 <h2>Home</h2>
 <span class="ic_txt">A proactive Risk Management approach is the solution Loss of any data can be extremely costly. Securing your data however, is only a part of the puzzle</span>
 <a href="#" class="col_ic_btn">Learn More </a>
 </div>
-<div class="collum-3"><div class="col_ic"><img src="<?php echo get_template_directory_uri();?>/images/hm_icon2.png"  alt=""/></div>
+<div class="collum-3"><div class="col_ic"><img src="images/hm_icon2.png"  alt=""/></div>
 <h2>Home</h2>
 <span class="ic_txt">A proactive Risk Management approach is the solution Loss of any data can be extremely costly. Securing your data however, is only a part of the puzzle</span>
 <a href="#" class="col_ic_btn">Learn More </a>
@@ -53,15 +133,15 @@ Use this calculator to get an instant price of a fully tailored suite of Smart C
 <div class="collum-2">
 <h2>Latest News</h2>
 <div class="news_bx">
-<div class="news_mg"><img src="<?php echo get_template_directory_uri();?>/images/news.png" width="158" height="82" alt=""/></div>
+<div class="news_mg"><img src="images/news.png" width="158" height="82" alt=""/></div>
 <div class="news_txt">Use this calculator to get an instant price of a fully tailored suite of Smart Cloud infrastructure</div>
 </div>
 <div class="news_bx">
-<div class="news_mg"><img src="<?php echo get_template_directory_uri();?>/images/news.png" width="158" height="82" alt=""/></div>
+<div class="news_mg"><img src="images/news.png" width="158" height="82" alt=""/></div>
 <div class="news_txt">Use this calculator to get an instant price of a fully tailored suite of Smart Cloud infrastructure</div>
 </div>
 <div class="news_bx">
-<div class="news_mg"><img src="<?php echo get_template_directory_uri();?>/images/news.png" width="158" height="82" alt=""/></div>
+<div class="news_mg"><img src="images/news.png" width="158" height="82" alt=""/></div>
 <div class="news_txt">Use this calculator to get an instant price of a fully tailored suite of Smart Cloud infrastructure</div>
 </div>
 
@@ -73,16 +153,16 @@ Use this calculator to get an instant price of a fully tailored suite of Smart C
 <h2>Our Client</h2>
 <div class="client_logo_bx">
 <div id="owl-example" class="owl-carousel">
-  <div> <img src="<?php echo get_template_directory_uri();?>/images/hm_icon.png" width="114" height="114" alt=""/></div>
-  <div> <img src="<?php echo get_template_directory_uri();?>/images/hm_icon.png" width="114" height="114" alt=""/></div>
-  <div> <img src="<?php echo get_template_directory_uri();?>/images/hm_icon.png" width="114" height="114" alt=""/></div>
-  <div> <img src="<?php echo get_template_directory_uri();?>/images/hm_icon.png" width="114" height="114" alt=""/></div>
-<div> <img src="<?php echo get_template_directory_uri();?>/images/hm_icon.png" width="114" height="114" alt=""/></div> 
-<div> <img src="<?php echo get_template_directory_uri();?>/images/hm_icon.png" width="114" height="114" alt=""/></div>  
-<div> <img src="<?php echo get_template_directory_uri();?>/images/hm_icon.png" width="114" height="114" alt=""/></div>
-  <div> <img src="<?php echo get_template_directory_uri();?>/images/hm_icon.png" width="114" height="114" alt=""/></div><div> <img src="<?php echo get_template_directory_uri();?>/images/hm_icon.png" width="114" height="114" alt=""/></div>  
-<div> <img src="<?php echo get_template_directory_uri();?>/images/hm_icon.png" width="114" height="114" alt=""/></div>
-  <div> <img src="<?php echo get_template_directory_uri();?>/images/hm_icon.png" width="114" height="114" alt=""/></div></div>
+  <div> <img src="images/hm_icon.png" width="114" height="114" alt=""/></div>
+  <div> <img src="images/hm_icon.png" width="114" height="114" alt=""/></div>
+  <div> <img src="images/hm_icon.png" width="114" height="114" alt=""/></div>
+  <div> <img src="images/hm_icon.png" width="114" height="114" alt=""/></div>
+<div> <img src="images/hm_icon.png" width="114" height="114" alt=""/></div> 
+<div> <img src="images/hm_icon.png" width="114" height="114" alt=""/></div>  
+<div> <img src="images/hm_icon.png" width="114" height="114" alt=""/></div>
+  <div> <img src="images/hm_icon.png" width="114" height="114" alt=""/></div><div> <img src="images/hm_icon.png" width="114" height="114" alt=""/></div>  
+<div> <img src="images/hm_icon.png" width="114" height="114" alt=""/></div>
+  <div> <img src="images/hm_icon.png" width="114" height="114" alt=""/></div></div>
 </div>
 </div>
 </section>
@@ -138,17 +218,80 @@ Use this calculator to get an instant price of a fully tailored suite of Smart C
 <div class="container">
 <div class="left_annoucement">SUPPORT AND ENQUIRES, CALL 00 0000 0000 OR EMAIL SUPPORT@INFINITY-IT.COM.AU</div>
 
-<div class="rite_social"><a href="#"><img src="<?php echo get_template_directory_uri();?>/images/fb.png" width="30" height="30"></a>
-<a href="#"><img src="<?php echo get_template_directory_uri();?>/images/g+.png" width="30" height="30"></a>
+<div class="rite_social"><a href="#"><img src="images/fb.png" width="30" height="30"></a>
+<a href="#"><img src="images/g+.png" width="30" height="30"></a>
 
-<a href="#"><img src="<?php echo get_template_directory_uri();?>/images/youtube.png" width="30" height="30"></a>
+<a href="#"><img src="images/youtube.png" width="30" height="30"></a>
 
-<a href="#"><img src="<?php echo get_template_directory_uri();?>/images/twitter.png" width="30" height="30"></a>
+<a href="#"><img src="images/twitter.png" width="30" height="30"></a>
 
-<a href="#"><img src="<?php echo get_template_directory_uri();?>/images/linkedin.png" width="30" height="30"></a>
+<a href="#"><img src="images/linkedin.png" width="30" height="30"></a>
 
-<a href="#"><img src="<?php echo get_template_directory_uri();?>/images/canicon.png" width="30" height="30"></a>
+<a href="#"><img src="images/canicon.png" width="30" height="30"></a>
 </div>
 </div>
 </section>
-<?php get_footer();?>
+<footer class="footer_start">
+<div class="container">
+<div class="collum-5">
+<ul class="foot_menu">
+<h3>Home</h3>
+<li><a href="#"> Home</a></li>
+<li><a href="#"> Home</a></li>
+<li><a href="#"> Home</a></li>
+<li><a href="#"> Home</a></li>
+
+</ul>
+</div>
+<div class="collum-5">
+<ul class="foot_menu">
+<h3>About</h3>
+<li><a href="#"> About</a></li>
+<li><a href="#"> About</a></li>
+<li><a href="#"> About</a></li>
+<li><a href="#"> About</a></li>
+
+</ul>
+</div>
+<div class="collum-5">
+<ul class="foot_menu">
+<h3>Services</h3>
+<li><a href="#"> Services</a></li>
+<li><a href="#"> Services</a></li>
+<li><a href="#"> Services</a></li>
+<li><a href="#"> Services</a></li>
+
+</ul>
+
+</div>
+
+<div class="collum-5">
+<ul class="foot_menu">
+<h3>Project</h3>
+<li><a href="#"> Project</a></li>
+<li><a href="#"> Project</a></li>
+<li><a href="#"> Project</a></li>
+<li><a href="#"> Project</a></li>
+
+
+</ul>
+
+</div>
+
+<div class="collum-5">
+<ul class="foot_menu">
+<h3>News</h3>
+<li><a href="#"> News</a></li>
+<li><a href="#"> News</a></li>
+<li><a href="#"> News</a></li>
+<li><a href="#"> News</a></li>
+
+
+</ul>
+
+</div>
+</div>
+</footer>
+
+</body>
+</html>

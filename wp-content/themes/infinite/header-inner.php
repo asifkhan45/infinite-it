@@ -12,48 +12,39 @@
 		if ( $paged>= 2 || $page >= 2 ) 
 			echo ' | ' . sprintf( __( 'Page %s', 'twentyeleven' ), max( $paged, $page ) ); 
 		?></title>
-
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link href="<?php echo get_template_directory_uri();?>/css/style.css" rel="stylesheet" type="text/css">
 
-<!--  carasoule Important Owl stylesheet -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/owl-carousel/owl.carousel.css">
- 
-<!-- Default Theme -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/owl-carousel/owl.theme.css">
- 
-<!--  jQuery 1.7+  -->
-<script src="<?php echo get_template_directory_uri();?>/js/jquery-1.9.1.min.js"></script>
- 
-<!-- Include js plugin -->
-<script src="<?php echo get_template_directory_uri();?>/owl-carousel/owl.carousel.js"></script>
-<script>
+  <!-- Zozo Tabs css -->
+    <link href="<?php echo get_template_directory_uri();?>/css/zozo.tabs.min.css" rel="stylesheet" />
 
-
-$(document).ready(function() {
- 
-  $("#owl-example").owlCarousel({
- 
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
- 
-      items : 6,
-      itemsDesktop : [1199,5],
-      itemsDesktopSmall : [979,4],
-	  itemsDesktopSmall : [809,3]
- 
+    <!-- Zozo Tabs js -->
+    <script src="<?php echo get_template_directory_uri();?>/js/jquery.min.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/js/zozo.tabs.min.js"></script>
+     <script>
+        jQuery(document).ready(function ($) {
+            /* jQuery activation and setting options for first tabs, enabling multiline*/
+            $("#tabbed-nav").zozoTabs({
+                position: "top-compact",
+                multiline: true,
+                theme: "white",
+                style: "clean",
+                shadows: true,
+                bordered: true,
+                orientation: "horizontal",
+                size: "medium",
+                animation: {
+                    easing: "easeInOutExpo",
+                    duration: 500,
+                    effects: "slideH"
+                }
+            });
   });
-  
-   $("#owl-testi").owlCarousel({
-autoPlay : 3000,
-singleItem : true,
+    </script>
+    <script src="<?php echo get_template_directory_uri();?>/js/custom.js"></script>
 
-});
- 
-});</script>
 
-<script src="<?php echo get_template_directory_uri();?>/js/custom.js"></script>
-<?php wp_head();?>
 </head>
 
 <body>
@@ -65,16 +56,15 @@ singleItem : true,
 </div></div>
 <div class="main_nav_bx">
 <div class="container">
-<div class="logo"><a href="<?php echo home_url();?>"><img src="<?php echo get_template_directory_uri();?>/images/logo.png"  alt=""/></a></div>
+<div class="logo"><img src="<?php echo get_template_directory_uri();?>/images/logo.png"  alt=""/></div>
 <div class="right-nav">
 <div class="nav_frm"><div class="nav_frm_title">Client Login</div>
 <div class="frm_nv"><label>User Name</label><input type="text"></div>
 <div class="frm_nv"><label>Password</label><input type="password"></div>
-<input type="button" id ="btn1" class="tp_btn" value="Login">
+<input type="button" class="tp_btn" value="Login">
 </div>
 <div class="nav">
 <ul>
-
 <?php $items = wp_get_nav_menu_items('header_menu' );
       foreach ($items as $val){
        echo '<li class="homeMainMenu" id="menu-' . $val->post_excerpt . '"><a href="'.$val->url.'">'.$val->title.'</a></li>';

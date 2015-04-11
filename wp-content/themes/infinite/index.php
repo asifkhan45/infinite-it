@@ -3,13 +3,12 @@
 <div class="srch_frm"><div class="container">
 <h2 class="srch_h2"> Free Two Hours Onsite</h2>
 <div class="srch_frm_bx">
-<div class="srch_bx"><label>Company</label><input type="text"></div>
+<!--<div class="srch_bx"><label>Company</label><input type="text"></div>
 <div class="srch_bx"><label>Contact</label><input type="text"></div>
 <div class="srch_bx"><label>Email</label><input type="text"></div>
 <div class="srch_bx"><label>Phone</label><input type="text"></div>
-
-<input type="button" value="Send" class="main_btn">
-
+<input type="button" value="Send" class="main_btn">-->
+<?php echo do_shortcode('[contact-form-7 id="47" title="Cf2"]');?>
 <input type="button" value="Try Our Diagnostic Tools" class="main_btn_new">
 
 </div>
@@ -47,7 +46,7 @@
 <div class="strt_2_icon"><img src="images/calculator.png"  alt=""/></div>
 <div class="strt2_txt">Think Private Cloud is too Expensive?<br>
 Use this calculator to get an instant price of a fully tailored suite of Smart Cloud infrastructure</div>
-<a href="#" class="col_ic_btn">Calculate Now </a>
+<a href="<?php echo home_url();?>/support-estimator/" class="col_ic_btn">Calculate Now </a>
 
 </div>
 <div class="collum-2">
@@ -134,21 +133,5 @@ Use this calculator to get an instant price of a fully tailored suite of Smart C
 </div>
 </section>
 
-<section class="social">
-<div class="container">
-<div class="left_annoucement">SUPPORT AND ENQUIRES, CALL 00 0000 0000 OR EMAIL SUPPORT@INFINITY-IT.COM.AU</div>
 
-<div class="rite_social"><a href="#"><img src="<?php echo get_template_directory_uri();?>/images/fb.png" width="30" height="30"></a>
-<a href="#"><img src="<?php echo get_template_directory_uri();?>/images/g+.png" width="30" height="30"></a>
-
-<a href="#"><img src="<?php echo get_template_directory_uri();?>/images/youtube.png" width="30" height="30"></a>
-
-<a href="#"><img src="<?php echo get_template_directory_uri();?>/images/twitter.png" width="30" height="30"></a>
-
-<a href="#"><img src="<?php echo get_template_directory_uri();?>/images/linkedin.png" width="30" height="30"></a>
-
-<a href="#"><img src="<?php echo get_template_directory_uri();?>/images/canicon.png" width="30" height="30"></a>
-</div>
-</div>
-</section>
 <?php get_footer();?>

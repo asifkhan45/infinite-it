@@ -269,7 +269,7 @@ span.ic_txt {
     margin: 9px 10%;
     line-height: 24px;
 }
-a.col_ic_btn {
+.col_ic_btn {
   margin: 10px auto;
   display: table;
   background: #3A8CCB;
@@ -736,7 +736,7 @@ label.select select {
   margin-bottom: 10px;
 }
 .nav ul{display:block;}
-.search_bar input[type="text"] {
+ .search_bar input {
     float: right;
     border: 1px solid #fff;
     outline: none;
@@ -748,7 +748,6 @@ label.select select {
     width: 88%;
     color: #fff;
 }
-
 .search_bar {
     float: right;
     padding-left: 110px;

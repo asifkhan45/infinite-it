@@ -5,6 +5,7 @@
 <div class="container">
 <div class="inner_left">
 <h1 class="main_head"><?php echo get_the_title();?></h1>
+
 <?php while(have_posts()):the_post();
 the_content();					
 endwhile;

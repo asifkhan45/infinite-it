@@ -276,6 +276,7 @@ span.ic_txt {
   padding: 7px 15px;
   border-radius: 10px;
   color: #fff;
+  border:none;
 }
 section.section_strt_2 {
     float: left;
@@ -697,7 +698,7 @@ label.select select {
     width: 50%;
 }
 
-.frm_bx input[type="text"] {
+.frm_bx input[type="text"],input[type="email"],input[type="tel"] {
     float: left;
     width: 54%;
     padding: 4px 2%;

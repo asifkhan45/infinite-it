@@ -1,4 +1,4 @@
-<?php if(!function_exists('dynamic_sidebar')||!dynamic_sidebar('Sidebar1')):endif; ?>
+
 <div class="inner_rite">
 <div class="testmonial_box">
 <div class="testi_txt">A Proactive Risk Management approch is the solution Loss of any data can  extremely costly.Securing your data however is only a part of the puzzle</div>
@@ -9,6 +9,7 @@ Apostle Asset Management</div>
 </div>
 <div class="collum-12 latest_news">
 <h2> Latest News</h2>
+<?php if(!function_exists('dynamic_sidebar')||!dynamic_sidebar('Sidebar1')):endif; ?>
 <div class="col_12_txt">A Proactive Risk Management approch is the solution Loss of any data can extremely costly.Securing your data </div>
 <hr class="line">
 <div class="col_12_txt">A Proactive Risk Management approch is the solution Loss of any data can extremely costly.Securing your data </div>

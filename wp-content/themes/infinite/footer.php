@@ -17,63 +17,16 @@
 </section>
 <footer class="footer_start">
 <div class="container">
-<div class="collum-5">
-<ul class="foot_menu">
-<h3>Home</h3>
-<li><a href="#"> Home</a></li>
-<li><a href="#"> Home</a></li>
-<li><a href="#"> Home</a></li>
-<li><a href="#"> Home</a></li>
-
-</ul>
-</div>
-<div class="collum-5">
-<ul class="foot_menu">
-<h3>About</h3>
-<li><a href="#"> About</a></li>
-<li><a href="#"> About</a></li>
-<li><a href="#"> About</a></li>
-<li><a href="#"> About</a></li>
-
-</ul>
-</div>
-<div class="collum-5">
-<ul class="foot_menu">
-<h3>Services</h3>
-<li><a href="#"> Services</a></li>
-<li><a href="#"> Services</a></li>
-<li><a href="#"> Services</a></li>
-<li><a href="#"> Services</a></li>
-
-</ul>
-
-</div>
-
-<div class="collum-5">
-<ul class="foot_menu">
-<h3>Project</h3>
-<li><a href="#"> Project</a></li>
-<li><a href="#"> Project</a></li>
-<li><a href="#"> Project</a></li>
-<li><a href="#"> Project</a></li>
 
 
-</ul>
 
-</div>
-
-<div class="collum-5">
-<ul class="foot_menu">
-<h3>News</h3>
-<li><a href="#"> News</a></li>
-<li><a href="#"> News</a></li>
-<li><a href="#"> News</a></li>
-<li><a href="#"> News</a></li>
+<?php $items = wp_get_nav_menu_items('header_menu' );
+      foreach ($items as $val){
+       echo '<div class="collum-5"><ul class="foot_menu"><h3 id="menu-' . $val->post_excerpt . '"><a href="'.$val->url.'">'.$val->title.'</a></h3><li></li></ul></div>';
+      }
+?>
 
 
-</ul>
-
-</div>
 </div>
 </footer>
 <?php wp_footer();?>

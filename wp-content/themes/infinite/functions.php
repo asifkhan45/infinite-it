@@ -1,6 +1,11 @@
 <?php register_nav_menu('menu', 'primary menu'); 
  if(function_exists('register_sidebar')) 
-{ register_sidebar(array('name'=>'sidebar1'));}
+{ 
+register_sidebar(array('name'=>'sidebar1'));
+register_sidebar(array('name'=>'HomeNews'));
+register_sidebar(array('name'=>'HomeTestimonial'));
+
+}
 ?>
 <?php 
 if ( ! function_exists( 'twentytwelve_entry_meta' ) ) :function twentytwelve_entry_meta() {	

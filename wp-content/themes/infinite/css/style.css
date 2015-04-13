@@ -67,8 +67,8 @@ footer.footer_start {
 .nav_frm {
     float: right;
     width: 270px;
-    margin: 10px 0px;
-    margin-right: 70px;
+    margin: 0 70px 10px 0;
+    /* margin-right: 70px; */
     position: relative;
 }
 
@@ -94,6 +94,7 @@ footer.footer_start {
     float: left;
     width: 100%;
     list-style: none;
+	line-height:45px;
 }
 
 .nav ul li {
@@ -975,8 +976,20 @@ input.main_btn_new {
   width: 50%;
   margin: 0px 24%;
 }
-
-
+.inner_container {
+    float: left;
+    margin: 22px 10px;
+    width: 95%;
+}
+.frm_nv label {
+    text-align: right;
+}
+.homeMainMenu a::before{
+background:none;
+}
+h2.srch_h2{
+font-size:24px;
+}
 .right-nav {
     width: 100%;
 }

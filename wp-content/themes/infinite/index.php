@@ -3,11 +3,6 @@
 <div class="srch_frm"><div class="container">
 <h2 class="srch_h2"> Free Two Hours Onsite</h2>
 <div class="srch_frm_bx">
-<!--<div class="srch_bx"><label>Company</label><input type="text"></div>
-<div class="srch_bx"><label>Contact</label><input type="text"></div>
-<div class="srch_bx"><label>Email</label><input type="text"></div>
-<div class="srch_bx"><label>Phone</label><input type="text"></div>
-<input type="button" value="Send" class="main_btn">-->
 <?php echo do_shortcode('[contact-form-7 id="47" title="Cf2"]');?>
 <input type="button" value="Try Our Diagnostic Tools" class="main_btn_new">
 
@@ -20,19 +15,19 @@
 <div class="container">
 <div class="collum-3">
 <div class="col_ic"><img src="<?php echo get_template_directory_uri();?>/images/hm_icon.png" alt=""/></div>
-<h2>Home</h2>
+<h2>Services</h2>
 <span class="ic_txt">A proactive Risk Management approach is the solution Loss of any data can be extremely costly. Securing your data however, is only a part of the puzzle</span>
 
 <a href="#" class="col_ic_btn">Learn More </a>
 </div>
 <div class="collum-3">
 <div class="col_ic"><img src="<?php echo get_template_directory_uri();?>/images/hm_icon1.png"  alt=""/></div>
-<h2>Home</h2>
+<h2>About us</h2>
 <span class="ic_txt">A proactive Risk Management approach is the solution Loss of any data can be extremely costly. Securing your data however, is only a part of the puzzle</span>
 <a href="#" class="col_ic_btn">Learn More </a>
 </div>
 <div class="collum-3"><div class="col_ic"><img src="<?php echo get_template_directory_uri();?>/images/hm_icon2.png"  alt=""/></div>
-<h2>Home</h2>
+<h2>Projects</h2>
 <span class="ic_txt">A proactive Risk Management approach is the solution Loss of any data can be extremely costly. Securing your data however, is only a part of the puzzle</span>
 <a href="#" class="col_ic_btn">Learn More </a>
 </div>
@@ -51,6 +46,7 @@ Use this calculator to get an instant price of a fully tailored suite of Smart C
 </div>
 <div class="collum-2">
 <h2>Latest News</h2>
+<?php if(!function_exists('dynamic_sidebar')||!dynamic_sidebar('HomeNews')):endif; ?>
 <div class="news_bx">
 <div class="news_mg"><img src="<?php echo get_template_directory_uri();?>/images/news.png" width="158" height="82" alt=""/></div>
 <div class="news_txt">Use this calculator to get an instant price of a fully tailored suite of Smart Cloud infrastructure</div>

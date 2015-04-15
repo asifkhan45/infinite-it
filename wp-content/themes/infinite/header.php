@@ -70,7 +70,7 @@ singleItem : true,
 <div class="nav_frm"><div class="nav_frm_title">Client Login</div>
 <div class="frm_nv"><label>User Name</label><input type="text"></div>
 <div class="frm_nv"><label>Password</label><input type="password"></div>
-<input type="button" id ="btn1" class="tp_btn" value="Login">
+<input type="button" id ="btn1" class="tp_btn col_ic_btn" value="Login">
 </div>
 <div class="nav">
 <ul>

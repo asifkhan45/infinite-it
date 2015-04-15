@@ -3,8 +3,8 @@
 <div class="srch_frm"><div class="container">
 <h2 class="srch_h2"> Free Two Hours Onsite</h2>
 <div class="srch_frm_bx">
-<?php echo do_shortcode('[contact-form-7 id="47" title="Cf2"]');?>
-<input type="button" value="Try Our Diagnostic Tools" class="main_btn_new">
+<?php echo do_shortcode('[contact-form-7 id="47" title="Cf2"]');?><br>
+<a type="button" href="<?php echo home_url()?>/support-estimator/" value="Try Our Diagnostic Tools" class="main_btn_new">Try Our Diagnostic Tools</a>
 
 </div>
 </div>

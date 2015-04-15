@@ -1,6 +1,18 @@
 @charset "utf-8";
 /* CSS Document */
 *{margin:0px; padding:0px; line-height:20px; font-family:Arial, sans-serif;font-size: 15px;}
+@font-face {
+    font-family: Walkway;
+    src: url(fonts/Walkway Black.ttf);
+    font-weight: normal;
+} 
+
+* {
+	font-family: Walkway;
+}
+body {
+	font-family: Walkway;
+}
 a{text-decoration:none;}
 
 .top_nav {
@@ -774,15 +786,15 @@ label.select select {
     background: #F6F6F6;
 }
 input.tp_btn {
-    background: none repeat scroll 0 0 #3a8ccb;
+    /* background: none repeat scroll 0 0 #3a8ccb;
     border: 1px solid #2e7ab5;
     border-radius: 5px;
     color: #fff;
     font-size: 17px;
-    padding: 3px 8px;
+    padding: 3px 8px; */
     position: absolute;
-    right: -55px;
-    top: 55px;
+    right: -60px;
+    top: 40px;
     transform: rotate(90deg);
 }
 input.main_btn {
@@ -792,7 +804,7 @@ input.main_btn {
     color: #fff;
     position: absolute;
     right: 0px;
-    top: 45px;
+    top: 40px;
     transform: rotate(90deg);
     font-size: 21px;
 }
@@ -807,6 +819,19 @@ background: none repeat scroll 0 0 #f6cd24;
     padding: 5px 10px;
     position: relative;
     top: 10px;}
+.main_btn_new {
+background: none repeat scroll 0 0 #f6cd24;
+    border: 1px solid #d0ad1c;
+    border-radius: 20px;
+    display: table;
+    font-size: 20px;
+    left: 16px;
+    margin: 0 auto;
+    padding: 5px 10px;
+    position: relative;
+    top: 10px;
+	color:#000;
+}
 
 .ol_list {
     float: left;

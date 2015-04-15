@@ -1,1 +1,11 @@
 /* theme name : Infinite */
+
+@font-face {
+    font-family: Walkway;
+    src: url(fonts/walkway.ttf);
+    font-weight: normal;
+} 
+
+body {
+	font-family: Walkway;
+}

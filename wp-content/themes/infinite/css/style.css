@@ -820,7 +820,7 @@ background: none repeat scroll 0 0 #f6cd24;
     position: relative;
     top: 10px;}
 .main_btn_new {
-background: none repeat scroll 0 0 #f6cd24;
+	background: none repeat scroll 0 0 #f6cd24;
     border: 1px solid #d0ad1c;
     border-radius: 20px;
     display: table;
@@ -828,7 +828,7 @@ background: none repeat scroll 0 0 #f6cd24;
     left: 16px;
     margin: 0 auto;
     padding: 5px 10px;
-    position: relative;
+    /* position: relative; */
     top: 10px;
 	color:#000;
 }
@@ -1043,4 +1043,37 @@ input.tp_btn {
 #btn1:hover{
 background:none repeat scroll 0 0 #f6cd24 !important;
 color:#000 !important;
+}
+.b1{
+font-weight:bold;
+}
+
+.b2 {
+  display: table;
+  background: #3A8CCB;
+  padding: 7px 15px;
+  border-radius: 10px;
+  color: #fff;
+  border-style:solid;
+  text-align:center;
+  font-weight:bold;
+}
+#btn2:hover{
+background:none repeat scroll 0 0 #f6cd24 !important;
+color:#000 !important;
+}
+.px1 p{
+	color: #fff;
+    font-size: 16px;
+    margin-bottom: 11px;
+    text-align: center;
+}
+.main_btnx1{
+	background: none repeat scroll 0 0 #3a8ccb;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 21px;
+    margin-left: 48%;
+    padding: 5px 14px;
+    text-align: center;
 }

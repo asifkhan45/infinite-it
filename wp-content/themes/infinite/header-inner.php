@@ -51,7 +51,7 @@
 
 <header>
 <div class="top_nav"><div class="container">
-<div class="search_bar"><?php get_search_form(); ?></div>
+<div class="search_bar"><a href="#" id ="btn2" class="b2">Quick Remote Support </a><?php// get_search_form(); ?></div>
 
 </div></div>
 <div class="main_nav_bx">
@@ -61,7 +61,7 @@
 <div class="nav_frm"><div class="nav_frm_title">Client Login</div>
 <div class="frm_nv"><label>User Name</label><input type="text"></div>
 <div class="frm_nv"><label>Password</label><input type="password"></div>
-<input type="button" class="tp_btn" value="Login">
+<input type="button" class=" b1 tp_btn" value="Login">
 </div>
 <div class="nav">
 <ul>

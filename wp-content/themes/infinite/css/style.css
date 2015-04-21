@@ -144,6 +144,12 @@ a.icon {
 .nav ul li a {
     color: #333;
     margin: 0px;
+	font-weight:bold;
+}
+.nav ul li :hover {
+    color: #3A8CCB;
+    margin: 0px;
+	font-weight:bold;
 }
 
 /* a.icon:before {
@@ -167,6 +173,17 @@ a.icon {
     width: 100%;
     height: 36px;
 	opacity: 0.2;
+}
+.homeMainMenu a:hover::before {
+    content: "";
+    position: absolute;
+    top: -34px;
+    padding: 0px;
+	background:url(../images/menu-icon-col.png) no-repeat;
+    background-position-y: 0px;
+    width: 100%;
+    height: 36px;
+	opacity: 1;
 }
 
 /* a.hm:before {

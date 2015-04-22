@@ -26,7 +26,7 @@
 <h2>About us</h2>
 <span class="ic_txt">A proactive Risk Management approach is the solution Loss of any data can be extremely costly. Securing your data however, is only a part of the puzzle</span>
 <a href="#" class="col_ic_btn">Learn More </a>
-<a type="button" href="<?php echo home_url()?>/business-it-diagnostic//" value="Try Our Diagnostic Tools" class="main_btn_new">Try Our Diagnostic Tools</a>
+
 
 </div>
 <div class="collum-3"><div class="col_ic"><img src="<?php echo get_template_directory_uri();?>/images/hm_icon2.png"  alt=""/></div>
@@ -37,6 +37,11 @@
 </div>
 </section>
 
+<section class="section_strt_2" style=" margin: 0 0 40px;">
+<div class="container">
+<a type="button" href="<?php echo home_url()?>/business-it-diagnostic//" value="Try Our Diagnostic Tools" class="main_btn_new">Try Our Diagnostic Tools</a>
+</div>
+</section>
 <section class="section_strt_2">
 <div class="container">
 <div class="collum-2 devider">

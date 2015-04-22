@@ -1068,7 +1068,7 @@ font-weight:bold;
 .b2 {
   display: table;
   background: #3A8CCB;
-  padding: 7px 15px;
+  padding: 7px 10px;
   border-radius: 10px;
   color: #fff;
   border-style:solid;
@@ -1086,9 +1086,10 @@ color:#000 !important;
     text-align: center;
 }
 .main_btnx1{
-	background: none repeat scroll 0 0 #3a8ccb;
+	background: none repeat scroll 0 0 #fff;
+	color:#277aba;
     border: 1px solid #fff;
-    color: #fff;
+	border-radius:4px;
     font-size: 21px;
     margin-left: 48%;
     padding: 5px 14px;

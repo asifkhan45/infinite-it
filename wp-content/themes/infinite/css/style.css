@@ -6,6 +6,11 @@
     src: url(fonts/Walkway Black.ttf);
     font-weight: normal;
 } 
+@font-face {
+    font-family: FiraSans-UltraLight;
+    src: url(fonts/FiraSans-UltraLight.otf);
+    font-weight: normal;
+} 
 
 * {
 	font-family: Walkway;

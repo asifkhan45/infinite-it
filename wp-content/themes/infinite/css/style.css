@@ -79,7 +79,7 @@ footer.footer_start {
 .nav_frm {
     float: right;
     width: 270px;
-    margin: 0 70px 10px 0;
+    /* margin: 0 70px 10px 0; */
     /* margin-right: 70px; */
     position: relative;
 }
@@ -91,7 +91,7 @@ footer.footer_start {
 }
 
 .nav_frm_title {
-    width: 100%;
+    width:98%;
     text-align: right;
     margin: 6px 0%;
 }
@@ -111,7 +111,7 @@ footer.footer_start {
 
 .nav ul li {
     display: inline-block;
-    margin: 0px 21px;
+    margin: 0px 30px;
 }
 .frm_nv label {
     margin-right: 4%;
@@ -1077,7 +1077,7 @@ font-weight:bold;
 }
 #btn2:hover{
 background:none repeat scroll 0 0 #f6cd24 !important;
-color:#000 !important;
+//color:#000 !important;
 }
 .px1 p{
 	color: #fff;
@@ -1094,4 +1094,9 @@ color:#000 !important;
     margin-left: 48%;
     padding: 5px 14px;
     text-align: center;
+}
+#login_arrow a{
+color: rgb(204, 204, 204); 
+font-weight: bold; 
+font-size: 25px;
 }

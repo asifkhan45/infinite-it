@@ -67,10 +67,11 @@ singleItem : true,
 <div class="container">
 <div class="logo"><a href="<?php echo home_url();?>"><img src="<?php echo get_template_directory_uri();?>/images/logo.png"  alt=""/></a></div>
 <div class="right-nav">
-<div class="nav_frm"><div class="nav_frm_title">Client Login</div>
+<div class="nav_frm"><div class="nav_frm_title"><strong>Client Login</strong></div>
 <div class="frm_nv"><label>User Name</label><input type="text"></div>
 <div class="frm_nv"><label>Password</label><input type="password"></div>
-<input type="button" id ="btn1" class=" b1 tp_btn col_ic_btn" value="Login">
+<div id="login_arrow" style="position: absolute;  top: 78px; left: 230px;"><a href="#">| &gt;</a></div>
+<!--<input type="button" id ="btn1" class=" b1 tp_btn col_ic_btn" value="Login">-->
 </div>
 <div class="nav">
 <ul>

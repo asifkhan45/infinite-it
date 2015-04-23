@@ -253,6 +253,7 @@ h2.srch_h2 {
     float: left;
     width: 46%;
     margin: 1%;
+	height:40px;
 }
 .srch_bx label {
     float: left;

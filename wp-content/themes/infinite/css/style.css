@@ -1094,9 +1094,43 @@ background:none repeat scroll 0 0 #f6cd24 !important;
     margin-left: 48%;
     padding: 5px 14px;
     text-align: center;
+	margin-top:30px;
+	margin-bottom:-20px;
 }
 #login_arrow a{
 color: rgb(204, 204, 204); 
 font-weight: bold; 
 font-size: 25px;
+}
+#login_arrow{
+position: absolute;
+  top: 78px; 
+  left: 230px;
+}
+
+@media screen and (max-width: 320px) {
+	#login_arrow {
+		left: 270px;
+		top: 100px;
+	}
+}
+@media screen and (max-width: 360px) {
+	#login_arrow {
+		left: 310px;
+		top: 100px;
+	}
+}
+@media screen and (max-width: 768px) {
+	#login_arrow {
+		left: 210px;
+		top: 78px;
+	}
+}
+
+
+.widget.SP_News_thmb_Widget {
+    list-style: outside none none;
+}
+.foot_menu a {
+    color: #000;
 }

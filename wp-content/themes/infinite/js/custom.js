@@ -2,7 +2,7 @@
 
 
 			  $(document).ready(function(){
-				     $("<span class='responsive_menu_icon'>MENU</span>").insertBefore(".nav ul");
+				     $("<span class='responsive_menu_icon'>&nbsp;</span>").insertBefore(".nav ul");
 	
 	
  

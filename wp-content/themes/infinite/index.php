@@ -55,7 +55,7 @@ Use this calculator to get an instant price of a fully tailored suite of Smart C
 <div class="collum-2">
 <h2>Latest News</h2>
 <?php if(!function_exists('dynamic_sidebar')||!dynamic_sidebar('HomeNews')):endif; ?>
-<div class="news_bx">
+<!-- <div class="news_bx">
 <div class="news_mg"><img src="<?php echo get_template_directory_uri();?>/images/news.png" width="158" height="82" alt=""/></div>
 <div class="news_txt">Use this calculator to get an instant price of a fully tailored suite of Smart Cloud infrastructure</div>
 </div>
@@ -66,7 +66,7 @@ Use this calculator to get an instant price of a fully tailored suite of Smart C
 <div class="news_bx">
 <div class="news_mg"><img src="<?php echo get_template_directory_uri();?>/images/news.png" width="158" height="82" alt=""/></div>
 <div class="news_txt">Use this calculator to get an instant price of a fully tailored suite of Smart Cloud infrastructure</div>
-</div>
+</div> -->
 
 </div></div>
 </section>

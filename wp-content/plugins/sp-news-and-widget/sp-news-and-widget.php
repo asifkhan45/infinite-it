@@ -262,16 +262,17 @@ class SP_News_thmb_Widget extends WP_Widget {
             $cust_loop = new WP_Query($news_args);
             if ($cust_loop->have_posts()) : while ($cust_loop->have_posts()) : $cust_loop->the_post(); $postcount++;
                     ?>
-                    <li>
-						<div class="news_thumb_left">
+                    <li><div class="news_bx">
+						<div class="news_mg">
 					   <a  href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"> <?php
                   if ( function_exists('has_post_thumbnail') && has_post_thumbnail() ) {
                    the_post_thumbnail( array(80,80) );
                   }
                   ?> </a></div>
-				  <div class="news_thumb_right">
+				  <div class="news_txt">
                         <a class="post-title" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 						</div>
+                    </div>
                     </li>
             <?php endwhile;
             endif;

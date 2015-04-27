@@ -46,7 +46,7 @@
 <div class="container">
 <div class="collum-2 devider">
 <h2>Price Calculator</h2>
-<div class="strt_2_icon"><img src="images/calculator.png"  alt=""/></div>
+<div class="strt_2_icon"><img src="<?php echo get_template_directory_uri();?>/images/calculator.png"  alt=""/></div>
 <div class="strt2_txt">Think Private Cloud is too Expensive?<br>
 Use this calculator to get an instant price of a fully tailored suite of Smart Cloud infrastructure</div>
 <a href="<?php echo home_url();?>/support-estimator/" class="col_ic_btn">Calculate Now </a>

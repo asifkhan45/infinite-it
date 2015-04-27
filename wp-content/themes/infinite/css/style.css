@@ -1,25 +1,69 @@
 @charset "utf-8";
 /* CSS Document */
-*{margin:0px; padding:0px; line-height:20px; font-family:Arial, sans-serif;font-size: 15px;}
+/* *{margin:0px; padding:0px; line-height:20px; font-family:Arial, sans-serif;font-size: 15px;}
 @font-face {
     font-family: Walkway;
     src: url(fonts/Walkway Black.ttf);
     font-weight: normal;
-} 
+}  */
+
 @font-face {
-    font-family: FiraSans-UltraLight;
-    src: url(fonts/FiraSans-UltraLight.otf);
+    font-family: 'fira_sansbold';
+    src: url('../fonts/firasans-bold-webfont.eot');
+    src: url('../fonts/firasans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/firasans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-bold-webfont.woff') format('woff'),
+         url('../fonts/firasans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/firasans-bold-webfont.svg#fira_sansbold') format('svg');
     font-weight: normal;
-} 
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fira_sansultra';
+    src: url('../fonts/firasans-ultra-webfont.eot');
+    src: url('../fonts/firasans-ultra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/firasans-ultra-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-ultra-webfont.woff') format('woff'),
+         url('../fonts/firasans-ultra-webfont.ttf') format('truetype'),
+         url('../fonts/firasans-ultra-webfont.svg#fira_sansultra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fira_sansultralight';
+    src: url('../fonts/firasans-ultralight-webfont.eot');
+    src: url('../fonts/firasans-ultralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/firasans-ultralight-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-ultralight-webfont.woff') format('woff'),
+         url('../fonts/firasans-ultralight-webfont.ttf') format('truetype'),
+         url('../fonts/firasans-ultralight-webfont.svg#fira_sansultralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 * {
-	font-family: Walkway;
+	/* font-family: Walkway; */
+	font-family: fira_sansbold;
 }
 body {
-	font-family: Walkway;
+	font-family: fira_sansbold;
 }
 a{text-decoration:none;}
 
+p{
+	font-family: fira_sansbold;
+}
 .top_nav {
     float: left;
     width: 100%;
@@ -787,12 +831,12 @@ label.select select {
 }
 .search_bar {
     float: right;
-    padding-left: 110px;
+    padding-left: 85px;
     background: url(../images/top-search.png)no-repeat;
     background-size: 29%;
     background-position: left;
     position: relative;
-    width: 18%;
+    width: 20%;
 }
 
 .search_bar:after {
@@ -843,7 +887,7 @@ background: none repeat scroll 0 0 #f6cd24;
     position: relative;
     top: 10px;}
 .main_btn_new {
-	background: none repeat scroll 0 0 #f6cd24;
+	background: none repeat scroll 0 0 #3A8CCB;
     border: 1px solid #d0ad1c;
     border-radius: 20px;
     display: table;
@@ -853,7 +897,7 @@ background: none repeat scroll 0 0 #f6cd24;
     padding: 5px 10px;
     /* position: relative; */
     top: 10px;
-	color:#000;
+	color:#fff;
 }
 
 .ol_list {

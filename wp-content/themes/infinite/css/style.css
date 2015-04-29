@@ -1,11 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
-/* *{margin:0px; padding:0px; line-height:20px; font-family:Arial, sans-serif;font-size: 15px;}
+*{margin:0px; padding:0px; line-height:20px; font-family:Arial, sans-serif;font-size: 16px;}
 @font-face {
     font-family: Walkway;
-    src: url(fonts/Walkway Black.ttf);
+    src: url('../fonts/Walkway Bold.ttf');
     font-weight: normal;
-}  */
+} 
 
 @font-face {
     font-family: 'fira_sansbold';
@@ -50,19 +50,20 @@
     font-weight: normal;
     font-style: normal;
 
-}
+} 
 
 * {
 	/* font-family: Walkway; */
-	font-family: fira_sansbold;
+	font-family: fira_sansultralight;
 }
 body {
-	font-family: fira_sansbold;
+	/* font-family: fira_sansbold; */
 }
 a{text-decoration:none;}
 
 p{
-	font-family: fira_sansbold;
+	/* font-family: Walkway; */
+	font-family: fira_sansultralight;
 }
 .top_nav {
     float: left;
@@ -160,7 +161,7 @@ footer.footer_start {
 
 .nav ul li {
     display: inline-block;
-    margin: 0px 30px;
+    margin: 0px 25px;
 }
 .frm_nv label {
     margin-right: 4%;
@@ -1118,7 +1119,7 @@ font-weight:bold;
 .b2 {
   display: table;
   background: #3A8CCB;
-  padding: 7px 10px;
+  padding: 7px 7px;
   border-radius: 10px;
   color: #fff;
   border-style:solid;

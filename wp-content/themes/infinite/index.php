@@ -39,7 +39,7 @@
 
 <section class="section_strt_2" style=" margin: 0 0 40px;">
 <div class="container">
-<a type="button" href="<?php echo home_url()?>/business-it-diagnostic//" value="Try Our Diagnostic Tools" class="main_btn_new">Try Our Diagnostic Tools</a>
+<a type="button" href="<?php echo home_url()?>/business-it-diagnostic//" value="Try Our Diagnostic Tools" class="col_ic_btn">Try Our Diagnostic Tools</a>
 </div>
 </section>
 <section class="section_strt_2">

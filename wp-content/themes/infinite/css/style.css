@@ -632,6 +632,7 @@ ul.tick-ic li {
     float: left;    width: 90%;    margin: 14px 0px;    background: #e6e7e8;    
     padding: 20px 5%;
     text-align: center;
+	list-style:none;
 }
 
 .latest_news .col_12_txt {
@@ -1184,4 +1185,11 @@ position: absolute;
 }
 .foot_menu a {
     color: #000;
+}
+.SP_News_Widget ul li{
+padding:5px 0 5px 9px !important;
+border-bottom:1px solid #000 !important;
+}
+.SP_News_Widget  a {
+color:#000 !important;
 }

@@ -229,11 +229,11 @@ a.icon {
     position: absolute;
     top: -34px;
     padding: 0px;
-	background:url(../images/menu-icon-col.png) no-repeat;
+	background:url(../images/menu-icon.png) no-repeat;
     background-position-y: 0px;
     width: 100%;
     height: 36px;
-	opacity: 1;
+	opacity: 0.5;
 }
 
 /* a.hm:before {

@@ -46,7 +46,7 @@
 <div class="container">
 <div class="x2">
 <p>Is your IT geared to get the most out of your employees and increase your bottom line?</p>
-<a href="<?php echo home_url()?>/business-it-diagnostic//" value="Try Our Diagnostic Tools" class="col_ic_btn">Try Our Diagnostic Tools</a>
+<a href="<?php echo home_url()?>/business-it-diagnostic//" value="Try Our Diagnostic Tools" class="col_ic_btn">CLICK HERE TO USE OUR DIAGNOSTIC TOOL TO FIND OUT NOW</a>
 </div>
 </div>
 </div>

@@ -23,4 +23,5 @@ jQuery(document).ready( function() {
 			jQuery(explanationText).siblings('.wpsqt-show-answer').show();
 		}
 	});
+	$("#btn-nn").trigger('click');
 });

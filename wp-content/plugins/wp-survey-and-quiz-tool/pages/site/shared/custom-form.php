@@ -28,6 +28,6 @@
 		</tr>
 	<?php } ?>
 	</table>
-	<p><input type='submit' value='Next &raquo;' class='button-secondary' /></p>
+	<p><input type='submit' value='Next &raquo;' id="btn-nn" class='button-secondary' /></p>
 </form>
 
